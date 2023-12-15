@@ -1,0 +1,24 @@
+{
+  "name": "progblack",
+  "version": "0.1.0",
+  "description": "Progblack coursework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamMorgan73/ProgBlackCourseWork.git"
+  },
+  "author": "sghp78@durham.ac.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamMorgan73/ProgBlackCourseWork/issues"
+  },
+  "homepage": "https://github.com/WilliamMorgan73/ProgBlackCourseWork#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "express": "^4.18.2"
+  }
+}
