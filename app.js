@@ -9,3 +9,5 @@ const fs = require('fs');
 
 app.use(express.static('client'));
 app.use(express.json());
+
+module.exports = app;
