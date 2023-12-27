@@ -1,0 +1,78 @@
+{
+    "1": {
+      "name": "The First Doctor",
+      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+      "companions": ["Companion 1", "Companion 2"]
+    },
+    "2": {
+      "name": "The Second Doctor",
+      "episodes": ["Episode A", "Episode B", "Episode C"],
+      "companions": ["Companion X", "Companion Y"]
+    },
+    "3": {
+      "name": "The Third Doctor",
+      "episodes": ["Episode I", "Episode II", "Episode III"],
+      "companions": ["Companion A", "Companion B"]
+    },
+    "4": {
+      "name": "The Fourth Doctor",
+      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+      "companions": ["Companion 1", "Companion 2"]
+    },
+    "5": {
+      "name": "The Fifth Doctor",
+      "episodes": ["Episode A", "Episode B", "Episode C"],
+      "companions": ["Companion X", "Companion Y"]
+    },
+    "6": {
+      "name": "The Sixth Doctor",
+      "episodes": ["Episode I", "Episode II", "Episode III"],
+      "companions": ["Companion A", "Companion B"]
+    },
+    "7": {
+      "name": "The Seventh Doctor",
+      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+      "companions": ["Companion 1", "Companion 2"]
+    },
+    "8": {
+      "name": "The Eighth Doctor",
+      "episodes": ["Episode A", "Episode B", "Episode C"],
+      "companions": ["Companion X", "Companion Y"]
+    },
+    "9": {
+      "name": "The Ninth Doctor",
+      "episodes": ["Episode I", "Episode II", "Episode III"],
+      "companions": ["Companion A", "Companion B"]
+    },
+    "10": {
+      "name": "The Tenth Doctor",
+      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+      "companions": ["Companion 1", "Companion 2"]
+    },
+    "11": {
+      "name": "The Eleventh Doctor",
+      "episodes": ["Episode A", "Episode B", "Episode C"],
+      "companions": ["Companion X", "Companion Y"]
+    },
+    "12": {
+      "name": "The Twelfth Doctor",
+      "episodes": ["Episode I", "Episode II", "Episode III"],
+      "companions": ["Companion A", "Companion B"]
+    },
+    "13": {
+      "name": "The Thirteenth Doctor",
+      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+      "companions": ["Companion 1", "Companion 2"]
+    },
+    "14": {
+      "name": "The Fourteenth Doctor",
+      "episodes": ["Episode A", "Episode B", "Episode C"],
+      "companions": ["Companion X", "Companion Y"]
+    },
+    "15": {
+      "name": "The Fifteenth Doctor",
+      "episodes": ["Episode I", "Episode II", "Episode III"],
+      "companions": ["Companion A", "Companion B"]
+    }
+  }
+  
