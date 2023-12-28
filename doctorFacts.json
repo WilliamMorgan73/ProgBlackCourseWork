@@ -1,78 +1,334 @@
 {
-    "1": {
-      "name": "The First Doctor",
-      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
-      "companions": ["Companion 1", "Companion 2"]
-    },
-    "2": {
-      "name": "The Second Doctor",
-      "episodes": ["Episode A", "Episode B", "Episode C"],
-      "companions": ["Companion X", "Companion Y"]
-    },
-    "3": {
-      "name": "The Third Doctor",
-      "episodes": ["Episode I", "Episode II", "Episode III"],
-      "companions": ["Companion A", "Companion B"]
-    },
-    "4": {
-      "name": "The Fourth Doctor",
-      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
-      "companions": ["Companion 1", "Companion 2"]
-    },
-    "5": {
-      "name": "The Fifth Doctor",
-      "episodes": ["Episode A", "Episode B", "Episode C"],
-      "companions": ["Companion X", "Companion Y"]
-    },
-    "6": {
-      "name": "The Sixth Doctor",
-      "episodes": ["Episode I", "Episode II", "Episode III"],
-      "companions": ["Companion A", "Companion B"]
-    },
-    "7": {
-      "name": "The Seventh Doctor",
-      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
-      "companions": ["Companion 1", "Companion 2"]
-    },
-    "8": {
-      "name": "The Eighth Doctor",
-      "episodes": ["Episode A", "Episode B", "Episode C"],
-      "companions": ["Companion X", "Companion Y"]
-    },
-    "9": {
-      "name": "The Ninth Doctor",
-      "episodes": ["Episode I", "Episode II", "Episode III"],
-      "companions": ["Companion A", "Companion B"]
-    },
-    "10": {
-      "name": "The Tenth Doctor",
-      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
-      "companions": ["Companion 1", "Companion 2"]
-    },
-    "11": {
-      "name": "The Eleventh Doctor",
-      "episodes": ["Episode A", "Episode B", "Episode C"],
-      "companions": ["Companion X", "Companion Y"]
-    },
-    "12": {
-      "name": "The Twelfth Doctor",
-      "episodes": ["Episode I", "Episode II", "Episode III"],
-      "companions": ["Companion A", "Companion B"]
-    },
-    "13": {
-      "name": "The Thirteenth Doctor",
-      "episodes": ["Episode 1", "Episode 2", "Episode 3"],
-      "companions": ["Companion 1", "Companion 2"]
-    },
-    "14": {
-      "name": "The Fourteenth Doctor",
-      "episodes": ["Episode A", "Episode B", "Episode C"],
-      "companions": ["Companion X", "Companion Y"]
-    },
-    "15": {
-      "name": "The Fifteenth Doctor",
-      "episodes": ["Episode I", "Episode II", "Episode III"],
-      "companions": ["Companion A", "Companion B"]
-    }
+  "1": {
+    "name": "The First Doctor",
+    "stories": [
+      {
+        "serial": "An Unearthly Child",
+        "episodes": [
+          "An Unearthly Child",
+          "The Cave of Skulls",
+          "The Forest of Fear",
+          "The Firemaker"
+        ]
+      },
+      {
+        "serial": "The Daleks",
+        "episodes": [
+          "The Dead Planet",
+          "The Survivors",
+          "The Escape",
+          "The Ambush",
+          "The Expedition",
+          "The Ordeal",
+          "The Rescue"
+        ]
+      },
+      {
+        "serial": "The Edge of Destruction",
+        "episodes": ["The Edge of Destruction", "The Brink of Disaster"]
+      },
+      {
+        "serial": "Marco Polo",
+        "episodes": [
+          "The Roof of the World",
+          "The Singing Sands",
+          "Five Hundred Eyes",
+          "The Wall of Lies",
+          "Rider from Shang-Tu",
+          "Mighty Kublai Khan"
+        ]
+      },
+      {
+        "serial": "The Keys of Marinus",
+        "episodes": [
+          "The Sea of Death",
+          "The Velvet Web",
+          "The Screaming Jungle",
+          "The Snows of Terror",
+          "Sentence of Death",
+          "The Keys of Marinus"
+        ]
+      },
+      {
+        "serial": "The Aztecs",
+        "episodes": [
+          "The Temple of Evil",
+          "The Warriors of Death",
+          "The Bride of Sacrifice",
+          "The Day of Darkness"
+        ]
+      },
+      {
+        "serial": "The Sensorites",
+        "episodes": [
+          "Strangers in Space",
+          "The Unwilling Warriors",
+          "Hidden Danger",
+          "A Race Against Death",
+          "Kidnap",
+          "A Desperate Venture"
+        ]
+      },
+      {
+        "serial": "The Reign of Terror",
+        "episodes": [
+          "A Land of Fear",
+          "Guests of Madame Guillotine",
+          "A Change of Identity",
+          "The Tyrant of France",
+          "A Bargain of Necessity",
+          "Prisoners of Conciergerie"
+        ]
+      },
+      {
+        "serial": "Planet of Giants",
+        "episodes": ["Planet of Giants", "Dangerous Journey", "Crisis"]
+      },
+      {
+        "serial": "The Dalek Invasion of Earth",
+        "episodes": [
+          "World's End",
+          "The Daleks",
+          "Day of Reckoning",
+          "The End of Tomorrow",
+          "The Waking Ally",
+          "Flashpoint"
+        ]
+      },
+      {
+        "serial": "The Rescue",
+        "episodes": ["The Powerful Enemy", "Desperate Measures"]
+      },
+      {
+        "serial": "The Romans",
+        "episodes": [
+          "The Slave Traders",
+          "All Roads Lead to Rome",
+          "Conspiracy",
+          "Inferno"
+        ]
+      },
+      {
+        "serial": "The Web Planet",
+        "episodes": [
+          "The Web Planet",
+          "The Zarbi",
+          "Escape to Danger",
+          "Crater of Needles",
+          "Invasion",
+          "The Centre"
+        ]
+      },
+      {
+        "serial": "The Crusade",
+        "episodes": [
+          "The Lion",
+          "The Knight of Jaffa",
+          "The Wheel of Fortune",
+          "The Warlords"
+        ]
+      },
+      {
+        "serial": "The Space Museum",
+        "episodes": [
+          "The Space Museum",
+          "The Dimensions of Time",
+          "The Search",
+          "The Final Phase"
+        ]
+      },
+      {
+        "serial": "The Chase",
+        "episodes": [
+          "The Executioners",
+          "The Death of Time",
+          "Flight Through Eternity",
+          "Journey into Terror",
+          "The Death of Doctor Who",
+          "The Planet of Decision"
+        ]
+      },
+      {
+        "serial": "The Time Meddler",
+        "episodes": [
+          "The Watcher",
+          "The Meddling Monk",
+          "A Battle of Wits",
+          "Checkmate"
+        ]
+      },
+      {
+        "serial": "Galaxy 4",
+        "episodes": [
+          "Four Hundred Dawns",
+          "Trap of Steel",
+          "Air Lock",
+          "The Exploding Planet"
+        ]
+      },
+      {
+        "serial": "Mission to the Unknown",
+        "episodes": ["Mission to the Unknown"]
+      },
+      {
+        "serial": "The Myth Makers",
+        "episodes": [
+          "Temple of Secrets",
+          "Small Prophet, Quick Return",
+          "Death of a Spy",
+          "Horse of Destruction"
+        ]
+      },
+      {
+        "serial": "The Daleks' Master Plan",
+        "episodes": [
+          "The Nightmare Begins",
+          "Day of Armageddon",
+          "Devil's Planet",
+          "The Traitors",
+          "Counter Plot",
+          "Coronas of the Sun",
+          "The Feast of Steven",
+          "Volcano",
+          "Golden Death",
+          "Escape Switch",
+          "The Abandoned Planet",
+          "Destruction of Time"
+        ]
+      },
+      {
+        "serial": "The Massacre of St Bartholomew's Eve",
+        "episodes": [
+          "War of God",
+          "The Sea Beggar",
+          "Priest of Death",
+          "Bell of Doom"
+        ]
+      },
+      {
+        "serial": "The Ark",
+        "episodes": ["The Steel Sky", "The Plague", "The Return", "The Bomb"]
+      },
+      {
+        "serial": "The Celestial Toymaker",
+        "episodes": [
+          "The Celestial Toyroom",
+          "The Hall of Dolls",
+          "The Dancing Floor",
+          "The Final Test"
+        ]
+      },
+      {
+        "serial": "The Gunfighters",
+        "episodes": [
+          "A Holiday for the Doctor",
+          "Don't Shoot the Pianist",
+          "Johnny Ringo",
+          "The OK Corral"
+        ]
+      },
+      {
+        "serial": "The Savages",
+        "episodes": ["Episode 1", "Episode 2", "Episode 3", "Episode 4"]
+      },
+      {
+        "serial": "The War Machines",
+        "episodes": ["Episode 1", "Episode 2", "Episode 3", "Episode 4"]
+      }
+    ],
+    "companions": ["Companion 1", "Companion 2"]
+  },
+  "2": {
+    "name": "The Second Doctor",
+    "stories": [
+      {
+        "serial": "The power of the daleks",
+        "episodes": [
+          "Episode 1",
+          "Episode 2",
+          "Episode 3",
+          "Episode 4"
+        ]
+      },
+      {
+        "serial": "Serial 2",
+        "episodes": [
+          "Episode 1",
+          "Episode 2",
+          "Episode 3",
+          "Episode 4"
+        ]
+      },
+      {
+
+      }
+    ],
+    "companions": ["Companion 3", "Companion 4"]
+  },
+
+  "3": {
+    "name": "The Third Doctor",
+    "episodes": ["Episode I", "Episode II", "Episode III"],
+    "companions": ["Companion A", "Companion B"]
+  },
+  "4": {
+    "name": "The Fourth Doctor",
+    "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+    "companions": ["Companion 1", "Companion 2"]
+  },
+  "5": {
+    "name": "The Fifth Doctor",
+    "episodes": ["Episode A", "Episode B", "Episode C"],
+    "companions": ["Companion X", "Companion Y"]
+  },
+  "6": {
+    "name": "The Sixth Doctor",
+    "episodes": ["Episode I", "Episode II", "Episode III"],
+    "companions": ["Companion A", "Companion B"]
+  },
+  "7": {
+    "name": "The Seventh Doctor",
+    "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+    "companions": ["Companion 1", "Companion 2"]
+  },
+  "8": {
+    "name": "The Eighth Doctor",
+    "episodes": ["Episode A", "Episode B", "Episode C"],
+    "companions": ["Companion X", "Companion Y"]
+  },
+  "9": {
+    "name": "The Ninth Doctor",
+    "episodes": ["Episode I", "Episode II", "Episode III"],
+    "companions": ["Companion A", "Companion B"]
+  },
+  "10": {
+    "name": "The Tenth Doctor",
+    "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+    "companions": ["Companion 1", "Companion 2"]
+  },
+  "11": {
+    "name": "The Eleventh Doctor",
+    "episodes": ["Episode A", "Episode B", "Episode C"],
+    "companions": ["Companion X", "Companion Y"]
+  },
+  "12": {
+    "name": "The Twelfth Doctor",
+    "episodes": ["Episode I", "Episode II", "Episode III"],
+    "companions": ["Companion A", "Companion B"]
+  },
+  "13": {
+    "name": "The Thirteenth Doctor",
+    "episodes": ["Episode 1", "Episode 2", "Episode 3"],
+    "companions": ["Companion 1", "Companion 2"]
+  },
+  "14": {
+    "name": "The Fourteenth Doctor",
+    "episodes": ["Episode A", "Episode B", "Episode C"],
+    "companions": ["Companion X", "Companion Y"]
+  },
+  "15": {
+    "name": "The Fifteenth Doctor",
+    "episodes": ["Episode I", "Episode II", "Episode III"],
+    "companions": ["Companion A", "Companion B"]
   }
-  
+}
