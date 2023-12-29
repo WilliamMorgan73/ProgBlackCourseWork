@@ -1,42 +1,29 @@
-/*
- * Globals
- */
+/*Css for background  and text*/
 
-/*
- * Base structure
- */
-
-body {
+body{
   background-color: #333;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  color: #fff;
+  color: whitesmoke;
 }
 
-.cover-container {
-  max-width: 42em;
+/* Css for headings */
+
+h1, h2{
+  margin-bottom: 10%;
+}
+
+/* Css for sections of code (main, aside, sections) */
+
+main, aside, section{
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
+/* Css for carousel */
+.carousel{
+  margin-bottom: 10% ;
 }
 
-/*
- * Cover
- */
-.cover {
-  padding: 0 1.5rem;
-}
- 
 /* Css to restric image sizes for carousel */
 .custom-image {
     max-width: 700px; /* Adjust the maximum width as needed */

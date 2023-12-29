@@ -3,353 +3,408 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Docter who fact file</title>
-    <!-- Import Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <!--Custom CSS -->
-    <link href="assests/css/style.css" rel="stylesheet" />
+    <title>The Doctors</title>
   </head>
+  <!-- Import Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <!--Import custom css -->
+  <link href="assests/css/style.css" rel="stylesheet" />
   <body>
-    <!-- Main content -->
-    <div class="container h-100">
-      <!-- Title -->
-      <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
-          <h1>The Doctors</h1>
-        </div>
-      </div>
-      <div class="row h-100 justify-content-center align-items-center">
-        <div class="row">
-          <!-- Carousel of all the Doctors -->
-          <div id="DoctorCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Carousel items, images of each doctor -->
-            <div class="carousel-inner d-flex align-items-center">
-              <div id="firstDoctorCarousel" class="carousel-item active">
-                <a href="/doctor/1" class="doctor-button" data-doctor-id="1">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/First-doctor.png"
-                    alt="The first doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The first doctor</h5>
-                </div>
-              </div>
-              <div id="secondDoctorCarousel" class="carousel-item">
-                <a href="/doctor/2" class="doctor-button" data-doctor-id="2">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Second-doctor.png"
-                    alt="The second doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The second doctor</h5>
-                </div>
-              </div>
-              <div id="thirdDoctorCarousel" class="carousel-item">
-                <a href="/doctor/3" class="doctor-button" data-doctor-id="3">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Third-doctor.png"
-                    alt="The third doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The third doctor</h5>
-                </div>
-              </div>
-              <div id="fourthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/4" class="doctor-button" data-doctor-id="4">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Fourth-doctor.png"
-                    alt="The fourth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The fourth doctor</h5>
-                </div>
-              </div>
-              <div id="fifthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/5" class="doctor-button" data-doctor-id="5">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Fifth-doctor.png"
-                    alt="The fifth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The fifth doctor</h5>
-                </div>
-              </div>
-              <div id="sixthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/6" class="doctor-button" data-doctor-id="6">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Sixth-doctor.png"
-                    alt="The sixth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The sixth doctor</h5>
-                </div>
-              </div>
-              <div id="seventhDoctorCarousel" class="carousel-item">
-                <a href="/doctor/7" class="doctor-button" data-doctor-id="7">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Seventh-doctor.png"
-                    alt="The seventh doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The seventh doctor</h5>
-                </div>
-              </div>
-              <div id="eighthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/8" class="doctor-button" data-doctor-id="8">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Eighth-doctor.png"
-                    alt="The eighth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The eighth doctor</h5>
-                </div>
-              </div>
-              <div id="ninthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/9" class="doctor-button" data-doctor-id="9">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Ninth-doctor.png"
-                    alt="The ninth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The ninth doctor</h5>
-                </div>
-              </div>
-              <div id="tenthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/10" class="doctor-button" data-doctor-id="10">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Tenth-doctor.png"
-                    alt="The tenth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The tenth doctor</h5>
-                </div>
-              </div>
-              <div id="eleventhDoctorCarousel" class="carousel-item">
-                <a href="/doctor/11" class="doctor-button" data-doctor-id="11">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Eleventh-doctor.png"
-                    alt="The eleventh doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The eleventh doctor</h5>
-                </div>
-              </div>
-              <div id="twelfthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/12" class="doctor-button" data-doctor-id="12">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Twelfth-doctor.png"
-                    alt="The twelfth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The twelfth doctor</h5>
-                </div>
-              </div>
-              <div id="thirteenthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/13" class="doctor-button" data-doctor-id="13">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Thirteenth-doctor.png"
-                    alt="The thirteenth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The thirteenth doctor</h5>
-                </div>
-              </div>
-              <div id="fourteenthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/14" class="doctor-button" data-doctor-id="14">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Fourteenth-doctor.png"
-                    alt="The fourteenth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The fourteenth doctor</h5>
-                </div>
-              </div>
-              <div id="fifteenthDoctorCarousel" class="carousel-item">
-                <a href="/doctor/15" class="doctor-button" data-doctor-id="15">
-                  <img
-                    class="d-block w-50 h-50 mx-auto custom-image"
-                    src="assests/images/Fifteenth-doctor.png"
-                    alt="The fifteenth doctor"
-                  />
-                </a>
-                <div class="carousel-caption">
-                  <h5>The fifteenth doctor</h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Carousel indicators -->
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="3"
-                aria-label="Slide 4"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="4"
-                aria-label="Slide 5"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="5"
-                aria-label="Slide 6"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="6"
-                aria-label="Slide 7"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="7"
-                aria-label="Slide 8"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="8"
-                aria-label="Slide 9"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="9"
-                aria-label="Slide 10"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="10"
-                aria-label="Slide 11"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="11"
-                aria-label="Slide 12"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="12"
-                aria-label="Slide 13"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="13"
-                aria-label="Slide 14"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#DoctorCarousel"
-                data-bs-slide-to="14"
-                aria-label="Slide 15"
-              ></button>
-            </div>
-
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#DoctorCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#DoctorCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <!-- End of carousel -->
-        </div>
-      </div>
-      <!--Facts displayed here when a doctor is pressed -->
-      <div class="row h-100 justify-content-center align-items-center">
+    <main>
+      <div class="container-fluid text-center">
+        <!-- Page title -->
         <div class="row">
           <div class="col-md-12">
-            <p id="episodes"></p>
+            <h1>The Doctors</h1>
           </div>
         </div>
-      </div>
-      <div class="row h-100 justify-content-center align-items-center">
+        <!-- Doctor carousel -->
         <div class="row">
           <div class="col-md-12">
-            <p id="companions"></p>
+            <div
+              id="DoctorCarousel"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <!-- Carousel items, images of each doctor -->
+              <div class="carousel-inner d-flex align-items-center">
+                <div id="firstDoctorCarousel" class="carousel-item active">
+                  <a href="/doctor/1" class="doctor-button" data-doctor-id="1">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/First-doctor.png"
+                      alt="The first doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The first doctor</h5>
+                  </div>
+                </div>
+                <div id="secondDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/2" class="doctor-button" data-doctor-id="2">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Second-doctor.png"
+                      alt="The second doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The second doctor</h5>
+                  </div>
+                </div>
+                <div id="thirdDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/3" class="doctor-button" data-doctor-id="3">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Third-doctor.png"
+                      alt="The third doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The third doctor</h5>
+                  </div>
+                </div>
+                <div id="fourthDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/4" class="doctor-button" data-doctor-id="4">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Fourth-doctor.png"
+                      alt="The fourth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The fourth doctor</h5>
+                  </div>
+                </div>
+                <div id="fifthDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/5" class="doctor-button" data-doctor-id="5">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Fifth-doctor.png"
+                      alt="The fifth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The fifth doctor</h5>
+                  </div>
+                </div>
+                <div id="sixthDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/6" class="doctor-button" data-doctor-id="6">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Sixth-doctor.png"
+                      alt="The sixth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The sixth doctor</h5>
+                  </div>
+                </div>
+                <div id="seventhDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/7" class="doctor-button" data-doctor-id="7">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Seventh-doctor.png"
+                      alt="The seventh doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The seventh doctor</h5>
+                  </div>
+                </div>
+                <div id="eighthDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/8" class="doctor-button" data-doctor-id="8">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Eighth-doctor.png"
+                      alt="The eighth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The eighth doctor</h5>
+                  </div>
+                </div>
+                <div id="ninthDoctorCarousel" class="carousel-item">
+                  <a href="/doctor/9" class="doctor-button" data-doctor-id="9">
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Ninth-doctor.png"
+                      alt="The ninth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The ninth doctor</h5>
+                  </div>
+                </div>
+                <div id="tenthDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/10"
+                    class="doctor-button"
+                    data-doctor-id="10"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Tenth-doctor.png"
+                      alt="The tenth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The tenth doctor</h5>
+                  </div>
+                </div>
+                <div id="eleventhDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/11"
+                    class="doctor-button"
+                    data-doctor-id="11"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Eleventh-doctor.png"
+                      alt="The eleventh doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The eleventh doctor</h5>
+                  </div>
+                </div>
+                <div id="twelfthDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/12"
+                    class="doctor-button"
+                    data-doctor-id="12"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Twelfth-doctor.png"
+                      alt="The twelfth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The twelfth doctor</h5>
+                  </div>
+                </div>
+                <div id="thirteenthDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/13"
+                    class="doctor-button"
+                    data-doctor-id="13"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Thirteenth-doctor.png"
+                      alt="The thirteenth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The thirteenth doctor</h5>
+                  </div>
+                </div>
+                <div id="fourteenthDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/14"
+                    class="doctor-button"
+                    data-doctor-id="14"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Fourteenth-doctor.png"
+                      alt="The fourteenth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The fourteenth doctor</h5>
+                  </div>
+                </div>
+                <div id="fifteenthDoctorCarousel" class="carousel-item">
+                  <a
+                    href="/doctor/15"
+                    class="doctor-button"
+                    data-doctor-id="15"
+                  >
+                    <img
+                      class="d-block w-50 h-50 mx-auto custom-image"
+                      src="assests/images/Fifteenth-doctor.png"
+                      alt="The fifteenth doctor"
+                    />
+                  </a>
+                  <div class="carousel-caption">
+                    <h5>The fifteenth doctor</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="7"
+                  aria-label="Slide 8"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="8"
+                  aria-label="Slide 9"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="10"
+                  aria-label="Slide 11"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="11"
+                  aria-label="Slide 12"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="12"
+                  aria-label="Slide 13"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="13"
+                  aria-label="Slide 14"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#DoctorCarousel"
+                  data-bs-slide-to="14"
+                  aria-label="Slide 15"
+                ></button>
+              </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#DoctorCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#DoctorCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
+    </main>
+    <!-- Extra information for selected doctor -->
+    <div class="invisible">
+      <aside>
+        <!-- Episode section -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Episodes</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Episodes are inserted here -->
+          </div>
+        </div>
+      </aside>
+      <!-- Companions -->
+      <aside>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Companions</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Companions are inserted here -->
+          </div>
+        </div>
+      </aside>
+      <!-- Notable monsters -->
+      <aside>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Notable monsters</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Notable monsters are inserted here -->
+          </div>
+        </div>
+      </aside>
     </div>
 
     <!-- Import Bootstrap javascript -->
