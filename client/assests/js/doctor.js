@@ -35,6 +35,9 @@ $(document).ready(function () {
             "src",
             "assests/images/companions/" + companion.id + ".png"
           );
+          
+          ///Make the images the same size
+          $companionImage.addClass('square-image');
 
           // Create a paragraph element for the companion's name
           var $companionName = $(
@@ -77,6 +80,9 @@ $(document).ready(function () {
               "src",
               "assests/images/monsters/" + monster.id + ".png"
             );
+
+            //Make the images the same size
+            $monsterImage.addClass('square-image');
 
             // Create a paragraph element for the monster's name
             var $monsterName = $(
