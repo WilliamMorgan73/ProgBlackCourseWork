@@ -1,0 +1,42 @@
+/*Css for background  and text*/
+
+body{
+  background-color: #333;
+  color: whitesmoke;
+}
+
+/* Css for headings */
+
+h1{
+  margin-bottom: 10%;
+}
+
+/* Css for sections of code (main, aside, sections) */
+
+main, aside, section{
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+
+/* Css for carousel */
+.carousel{
+  margin-bottom: 10% ;
+}
+
+/* Css to restric image sizes for carousel */
+.custom-image {
+    max-width: 700px; /* Adjust the maximum width as needed */
+    max-height: 700px; /* Adjust the maximum height as needed */
+    width: auto;
+    height: auto;
+  }
+
+  /* Css for square images */
+  .square-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* Set the height to the same value as the width for a square aspect ratio */
+  }
+  
+  
